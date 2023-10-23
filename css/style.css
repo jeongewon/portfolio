@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5 {
 
 .text-black {
   color: #3F4ED5 !important; 
-  font-weight: 600;
+  font-weight: 900;
   font-size: 18px;
 }
 
@@ -1682,12 +1682,23 @@ body p{
 .portfolio_tt h1{
   font-size: 35px;
   margin-bottom: -10px;
+  font-weight: 600;
+}
+
+.portfolio_tt h1 span{
+  font-style: italic;
 }
 
 .hero-heading .char1,
 .hero-heading .char5{
   font-weight: 900;
+}
+.hero-heading .char1{
+  color: #3F4ED5;
+}
+.hero-heading .char5{
   color: #323232;
+  font-style: italic;
 }
 
 .introduction p{
@@ -1701,7 +1712,7 @@ body p{
 }
 
 .myinfo{
-  margin-bottom: 40px;
+  margin: 40px 0;
 }
 
 .myinfo span{
