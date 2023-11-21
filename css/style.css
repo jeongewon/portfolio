@@ -1046,11 +1046,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   display: none; }
 
 .main-slider .owl-dots, .custom-slider .owl-dots {
-  bottom: -50px; }
+  bottom: -40px; }
 
 .main-slider .owl-nav, .custom-slider .owl-nav {
   position: absolute;
-  top: 50%;
+  top: 40%;
   width: 100%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -1590,8 +1590,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     color: #323232; }
   .testimonial .img-wrap img {
     margin: 0 auto;
-    width: 70px;
-    border-radius: 50%; }
+    width: 100%;}
 
 .list-check li {
   display: block;
@@ -1613,14 +1612,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   padding-bottom: 30px; */
   font-size: 18px; }
   @media (max-width: 991.98px) {
-    .site-footer {
-      padding-top: 30px; } }
+    }
   .site-footer a {
     color: #323232; }
     .site-footer a:hover {
       color: #323232; }
   .site-footer .widget {
-    margin-bottom: 30px; }
+    margin-bottom: 15px; }
+  .site-footer .teachstackSkill {
+    margin-bottom: 20px;
+  }
     .site-footer .widget h3 {
       font-size: 16px;
       font-weight: 700;
@@ -1666,7 +1667,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       background: #323232; }
 
 .introduction,
-.list-unstyled li{
+.list-unstyled li,
+.main-slider h3,
+.main-slider p{
   font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 
@@ -1749,7 +1752,26 @@ body svg path{
 .site-footer li p{
   font-size: 12px;
 }
-.site-footer li .percent{
+.site-footer li .percent,
+.teamProject_tt h2{
   color: #3F4ED5;
   font-weight: 700;
+}
+.site-footer .phpimg img{
+  margin-bottom: 12px;
+}
+.career{
+  margin-top: 15px;
+}
+.careerlist{
+  margin-bottom: 0;
+}
+.teamProject_tt h2{
+  margin: 15px 0 34px 0;
+}
+.main-slider .testimonial h3{
+  margin-top: 36px;
+}
+.main-slider .testimonial p{
+  margin-bottom: 24px;
 }
