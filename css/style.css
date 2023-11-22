@@ -1045,12 +1045,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .no-nav .owl-nav {
   display: none; }
 
-.main-slider .owl-dots, .custom-slider .owl-dots {
-  bottom: -40px; }
+/* .main-slider .owl-dots, .custom-slider .owl-dots {
+  bottom: -40px; } */
 
 .main-slider .owl-nav, .custom-slider .owl-nav {
   position: absolute;
-  top: 40%;
+  top: 28%;
   width: 100%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -1590,7 +1590,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     color: #323232; }
   .testimonial .img-wrap img {
     margin: 0 auto;
-    width: 100%;}
+    width: 90%;}
 
 .list-check li {
   display: block;
@@ -1770,8 +1770,20 @@ body svg path{
   margin: 15px 0 34px 0;
 }
 .main-slider .testimonial h3{
-  margin-top: 36px;
+  margin: 36px 0 0 0;
 }
-.main-slider .testimonial p{
+.main-slider .testimonial .projuctinfo1{
+  margin: 15px 0;
+}
+.main-slider .testimonial blockquote{
+  margin-bottom: 0;
+}
+.main-slider .testimonial .projectinfo2{
   margin-bottom: 24px;
+}
+.main-slider .testimonial .projectinfo2 span{
+  font-weight: 500;
+}
+.projectIcon .github{
+  margin: 0 5px;
 }
