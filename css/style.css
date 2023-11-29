@@ -1657,21 +1657,22 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     position: relative;
     padding-top: 40px;
     margin-top: 40px; }
-    .site-footer .copyright:before {
+    /* .site-footer .copyright:before {
       top: 0;
       position: absolute;
       left: 15px;
       right: 15px;
       content: "";
       height: 1px;
-      background: #323232; }
+      background: #727272; } */
 
 .introduction,
 .list-unstyled li,
 .main-slider h3,
 .main-slider p,
 .isotope-card .contents h3,
-.isotope-card .contents .cat
+.isotope-card .contents .cat,
+.viewAll a
 {
   font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
@@ -1799,4 +1800,17 @@ body svg path{
 }
 .line2 {
   margin-top: 56px;
+}
+.copyright_tt p{
+  font-size: 14px;
+  color: #525252;
+  margin-top: 96px;
+}
+.viewAll{
+  margin-bottom: 24px;
+}
+.viewAll h6{
+  margin: 0 0 0 3px;
+  font-weight: 400;
+  color: #3F4ED5;
 }
